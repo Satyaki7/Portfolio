@@ -1,9 +1,13 @@
-import Testing from "./components/testing"
+
+import About from "./Pages/about"
+import Landing from "./Pages/landing"
 
 function App() {
   return (
     <>
-      <Testing/>
+      <div className="h-screen w-screen bg-black">
+        <Landing />
+      </div>
     </>
   )
 }
