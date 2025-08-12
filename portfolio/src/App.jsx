@@ -1,13 +1,16 @@
 
-import About from "./Pages/about"
 import Landing from "./Pages/landing"
+import Navbar from "./components/StickyNavbar.jsx";
+import SplashCursor from "./blocks/Animations/SplashCursor/SplashCursor.jsx";
+// import About from "./Pages/about.jsx";
 
 function App() {
   return (
     <>
-      <div className="h-screen w-screen bg-black">
+        <SplashCursor/>
+        <Navbar/>
         <Landing />
-      </div>
+
     </>
   )
 }

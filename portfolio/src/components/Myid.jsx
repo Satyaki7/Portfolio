@@ -12,7 +12,8 @@ function Myid() {
   avatarUrl="./src/assets/myLogo.png"
   showUserInfo={true}
   enableTilt={true}
-  enableMobileTilt={false}
+  enableMobileTilt={true}
+  mobileTiltSensitivity={5}
   onContactClick={() => console.log('Contact clicked')}
 />
     </div>
