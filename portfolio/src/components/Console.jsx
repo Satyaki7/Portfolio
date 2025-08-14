@@ -210,39 +210,41 @@ export function Console() {
   };
 
   return (
-    <div className="h-full bg-gray-900 text-green-400 font-mono text-sm flex flex-col">
-      <div className="bg-gray-800 px-4 py-2 border-b border-gray-700">
-        <h2 className="text-white">Portfolio Terminal</h2>
-      </div>
-      
-      <div 
-        ref={scrollRef}
-        className="flex-1 overflow-y-auto p-4 space-y-1 max-h-[100vh]"
-        onClick={() => inputRef.current?.focus()}
-      >
-        {lines.map((line, index) => (
-          <div key={index} className={`whitespace-pre-wrap ${
-            line.type === 'input' ? 'text-yellow-400' : 
-            line.type === 'system' ? 'text-blue-400' : 
-            'text-green-400'
-          }`}>
-            {line.text}
+      <div className="h-max-full bg-gray-900 text-green-400 font-mono text-sm flex flex-col">
+        {/* Scrollable output area */}
+        <div
+            ref={scrollRef}
+            className="flex-1 p-4 space-y-1 overflow-y-auto"
+            onClick={() => inputRef.current?.focus()}
+        >
+          {lines.map((line, index) => (
+              <div
+                  key={index}
+                  className={`whitespace-pre-wrap ${
+                      line.type === "input"
+                          ? "text-yellow-400"
+                          : line.type === "system"
+                              ? "text-blue-400"
+                              : "text-green-400"
+                  }`}
+              >
+                {line.text}
+              </div>
+          ))}
+          <div className="flex items-center p-4 border-t border-gray-700">
+            <span className="text-yellow-400 mr-2">$</span>
+            <input
+                ref={inputRef}
+                type="text"
+                value={currentInput}
+                onChange={(e) => setCurrentInput(e.target.value)}
+                onKeyDown={handleKeyDown}
+                className="flex-1 bg-transparent outline-none text-green-400 caret-green-400"
+                placeholder="Enter command..."
+            />
           </div>
-        ))}
-        
-        <div className="flex items-center">
-          <span className="text-yellow-400 mr-2">$</span>
-          <input
-            ref={inputRef}
-            type="text"
-            value={currentInput}
-            onChange={(e) => setCurrentInput(e.target.value)}
-            onKeyDown={handleKeyDown}
-            className="flex-1 bg-transparent outline-none text-green-400 caret-green-400"
-            placeholder="Enter command..."
-          />
         </div>
       </div>
-    </div>
+
   );
 }

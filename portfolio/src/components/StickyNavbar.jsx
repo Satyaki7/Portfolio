@@ -2,7 +2,7 @@ export default function Navbar() {
   return (
       <nav
           className="
-        fixed bottom-0 left-1/2 -translate-x-1/2 w-[80%]  z-50
+        fixed bottom-0 left-1/2 -translate-x-1/2 w-[80%] z-100
         md:sticky md:top-4 md:left-0 md:translate-x-0 md:w-full md:bg-transparent rounded-4xl
       "
       >
