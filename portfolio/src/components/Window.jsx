@@ -19,7 +19,7 @@ export default function Window() {
 
     return (
         <div className={`gird grid-rows-[5%_95%] z-10 md:z-50 bg-[#FFFFFF0F] backdrop-blur-2xl rounded-md ${size} m-2 md:transition-all duration-300`}>
-            <div className="flex flex-row justify-left items-center gap-2 bg-white rounded-t-md p-1">
+            <div className="flex flex-row justify-left items-center gap-2 bg-amber-50 rounded-t-md p-1">
                 {/* Close */}
                 <button
                     className="w-4 h-4 bg-[#FF605C] rounded-full flex items-center justify-center text-transparent text-xs hover:text-white"
@@ -33,7 +33,7 @@ export default function Window() {
                     className="w-4 h-4 bg-[#FFBD44] rounded-full flex items-center justify-center text-transparent text-xs hover:text-white"
                     onClick={() => setSize("md:h-[30%] md:w-[30%]")}
                 >
-                    <span className="material-symbols-outlined">collapse_content</span>
+                    <strong>--</strong>
                 </button>
 
                 {/* Enlarge */}

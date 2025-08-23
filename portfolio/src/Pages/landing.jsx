@@ -1,41 +1,38 @@
-import Myid from "../components/Myid";
 import Navbar from "../components/StickyNavbar";
 import SquareButtons from "../components/SquareButtons.jsx";
 import  github from "../assets/icons8-github-50.png";
 import  gmail from "../assets/icons8-gmail-50.png";
 import  linkedin from "../assets/icons8-linkedin-50.png";
 import Window from "../components/Window.jsx";
+import myLogo from "../assets/myLogo.png";
+import ScrollVelocity from "../blocks/TextAnimations/ScrollVelocity/ScrollVelocity.jsx";
 
 export default function Landing() {
     return (
-        <div className="grid grid-rows-2 md:grid md:[grid-template-rows:80%] h-[calc(100vh-4rem)] text-amber-100">
-            <div className="md:grid md:grid-cols-2">
-                <div className="w-[90%] h-full justify-center items-center m-4 md:w-full grid-rows-2 gap-4 z-50">
-                    <div className="flex flex-col justify-center items-center h-full ">
-                        <div className="flex flex-col items-start">
-                            <div>
-                                <p className="text-2xl">Hi, I'm Satyaki Das</p>
-                                <p className="text-6xl">
-                                    <strong>
-                                        Software
-                                        <br />
-                                        Developer
-                                    </strong>
-                                </p>
-                            </div>
-                            <div className="flex flex-row gap-4 mt-4">
-                                <SquareButtons imageSrc={github}/>
-                                <SquareButtons imageSrc={linkedin}/>
-                                <SquareButtons imageSrc={gmail}/>
-                            </div>
-                        </div>
+        <div className="h-screen w-screen bg-white flex flex-col items-center justify-center font-black md:p-32 p-8">
+            <div className="flex md:flex-row flex-col md:justify-between items-center w-full">
+                <div className="flex flex-col">
+                    <p className="md:text-5xl font-[Helvetica] font-light text-2xl">Hi I'm</p>
+                    <p className="md:text-8xl font-['Birthstone'] font-medium text-6xl">Satyaki<br/>Das</p>
+                </div>
+                <div>
+                    <div className="md:h-[32rem] md:w-[24rem] rounded-full w-[6rem] h-[8rem] mt-5 md:mt-0">
+                        <img src={myLogo} alt="myid" className="h-full w-full rounded-full" />
                     </div>
                 </div>
-
-                <div className="flex justify-center items-center h-fit w-full md:h-full md:w-full rounded-md">
-                    <Window/>
+            </div>
+            <div className="flex flex-row mt-8 justify-between items-center w-full">
+                <div className="font-medium">
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non mauris quis leo pulvinar <br/>eleifend ut nec felis. Sed vel elit ac risus bibendum ullamcorper vel in lorem. Sed <br/>sodales non elit convallis sagittis. Morbi suscipit risus tincidunt, tincidunt ante <br/>in, finibus augue. In condimentum nisi in rhoncus posuere.
+                    </p>
                 </div>
-
+                <div className="font-medium">
+                    <p>Lorem ipsum dolor sit amet, <br/>consectetur adipiscing elit. <br/> Sed non mauris quis leo pulvinar eleifend ut nec felis. <br/> Sed vel elit ac risus bibendum ullamcorper <br/> vel in lorem. Sed sodales non elit convallis sagitt. </p>
+                </div>
+            </div>
+            <div className="w-screen">
+                <p className="text-4xl sm:text-6xl lg:text-8xl font-bold whitespace-normal lg:whitespace-nowrap" >Developer Developer Developer Developer Developer Developer Developer Developer </p>
             </div>
         </div>
     );
