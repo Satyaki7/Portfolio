@@ -60,7 +60,7 @@ export default function Navbar() {
             <span className="md:hidden">
               <span className="material-icons">send</span>
             </span>
-              <span className="hidden md:inline">Contact</span>
+              <span className="hidden md:inline">Links</span>
             </button>
 
           </div>

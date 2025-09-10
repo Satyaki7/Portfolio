@@ -19,7 +19,7 @@ root.render(
                     <Route path="/" element={<App />} />
                     <Route path="/projects" element={<Projects />} />
                     <Route path="/resume" element={<Resume />} />
-                    <Route path="/contact" element={<Contact />} />
+                    <Route path="/Profile-links" element={<Contact />} />
                 </Routes>
             </BrowserRouter>
         </>

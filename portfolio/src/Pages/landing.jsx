@@ -62,10 +62,10 @@ export default function Home() {
                             <div className="flex flex-row justify-between items-center animate-up opacity-0 translate-y-20">
                                 <SocialButtons
                                     image={"https://img.icons8.com/ios-glyphs/90/linkedin.png"}
-                                    link={`https://google.com`}
+                                    link={`https://www.linkedin.com/in/satyaki-das7/`}
                                 />
-                                <SocialButtons image={"https://img.icons8.com/ios-glyphs/90/github.png"} />
-                                <SocialButtons image={"https://img.icons8.com/ios-glyphs/90/discord-logo.png"} />
+                                <SocialButtons image={"https://img.icons8.com/ios-glyphs/90/github.png"} link={`https://github.com/Satyaki7`}/>
+                                <SocialButtons image={"https://img.icons8.com/ios-glyphs/90/discord-logo.png"} link={`https://discord.gg/bUQywpRE`}/>
                             </div>
 
                             <div className="animate-up opacity-0 translate-y-20">
@@ -86,20 +86,13 @@ export default function Home() {
                     {/* Paragraphs */}
                     <div className="flex flex-row justify-between items-center w-full mt-16 md:mt-0">
                         <div className="font-medium flex flex-wrap w-[60%] animate-up opacity-0 translate-y-20">
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non
-                                mauris quis leo pulvina eleifend ut nec felis. Sed vel elit ac
-                                risus bibendum ullamcorper vel in lorem. Sed sodales non elit
-                                convallis sagittis. Morbi suscipit risus tincidunt, tincidunt
-                                ante in, finibus augue. In condimentum nisi in rhoncus posuere.
+                            <p className={`text-2sm`}>
+                                I am a first-year B.Tech CSE student with a strong interest in full-stack development and an emerging passion for cybersecurity. I enjoy working across both the frontend and backend, transforming ideas into interactive, reliable, and user-friendly applications. My attention to detail enables me to deliver clean and effective solutions while also fueling my drive to understand and implement secure system designs.
                             </p>
                         </div>
-                        <div className="text-sm font-medium flex flex-wrap w-[20%] animate-up opacity-0 translate-y-20">
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non
-                                mauris quis leo pulvinar eleifend ut nec felis. Sed vel elit ac
-                                risus bibendum ullamcorper vel in lorem. Sed sodales non elit
-                                convallis sagitt.
+                        <div className="font-medium flex flex-wrap w-[20%] animate-up opacity-0 translate-y-20 text-center">
+                            <p className={`text-2sm`}>
+                                I believe every detail matters in development. Each project is a blend of precision and creativity, crafted like a piece of art to deliver meaningful experiences.
                             </p>
                         </div>
                     </div>
