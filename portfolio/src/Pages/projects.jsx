@@ -4,7 +4,7 @@ import backgroundImage from "../assets/background.jpeg";
 
 export default function Projects() {
   return (
-      <section className={`h-screen`}>
+      <section className={`h-screen overflow-hidden`}>
           <Navbar />
           <div className={`flex flex-col items-center justify-center h-full w-full`}>
               <ScrollStack>

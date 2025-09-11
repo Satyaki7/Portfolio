@@ -31,7 +31,7 @@ export default function Loader() {
             <div id="loader-text" className="text-6xl font-[Helvetica] font-bold">
                 <DecryptedText
                     speed={100}
-                    maxIterations={20}
+                    maxIterations={10}
                     text="Welcome to my Portfolio"
                     animateOn="view"
                     revealDirection="start"

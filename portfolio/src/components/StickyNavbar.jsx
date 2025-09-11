@@ -54,11 +54,13 @@ export default function Navbar() {
 
             {/* Contact */}
             <button
-                className={`${baseBtn} ${location.pathname === "/contact" ? activeBtn : inactiveBtn}`}
-                onClick={() => navigate("/contact")}
+                className={`${baseBtn} ${location.pathname === "/Profile-links" ? activeBtn : inactiveBtn}`}
+                onClick={() => {
+                  window.location.href = "https://satyaki7.github.io/Profile-links/";
+                }}
             >
             <span className="md:hidden">
-              <span className="material-icons">send</span>
+              <span className="material-icons">description</span>
             </span>
               <span className="hidden md:inline">Links</span>
             </button>
