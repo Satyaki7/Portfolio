@@ -1,4 +1,4 @@
-import './App.css'
+
 import Home from "./Pages/landing"
 import Navbar from "./components/StickyNavbar.jsx";
 

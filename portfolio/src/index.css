@@ -26,7 +26,7 @@ body {
     background: none; /* no background initially */
 }
 body.ready {
-    background-image: url("assets/backgroundOP1.jpg");
+    background-image: url("assets/backgroundOP.jpg");
     background-repeat: repeat;
 }
 

@@ -49,10 +49,10 @@ export default function Home() {
                     <div className="flex md:flex-row flex-col md:justify-between items-center w-full">
                         {/* Left intro text */}
                         <div className="flex flex-col animate-up opacity-0 translate-y-20">
-                            <p className="md:text-5xl font-[Helvetica] font-light text-2xl">
+                            <p className="md:text-5xl font-[monospace] font-thin text-2xl">
                                 Hi I'm
                             </p>
-                            <p className="md:text-[8rem] font-['Birthstone'] font-medium text-6xl">
+                            <p className="md:text-[8rem] font-['Birthstone'] font-bold text-6xl">
                                 Satyaki<br />Das
                             </p>
                         </div>

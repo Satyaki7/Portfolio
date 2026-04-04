@@ -1,5 +1,5 @@
 import Navbar from "../components/StickyNavbar.jsx";
-import resume from "../assets/AOP_Concepts.pdf"
+import resume from "../assets/Satyaki_Das.pdf"
 import Footer from "../components/Footer.jsx";
 
 export default function Resume(){

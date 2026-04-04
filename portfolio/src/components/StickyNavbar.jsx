@@ -60,7 +60,7 @@ export default function Navbar() {
                 }}
             >
             <span className="md:hidden">
-              <span className="material-icons">description</span>
+              <span className="material-icons">Links</span>
             </span>
               <span className="hidden md:inline">Links</span>
             </button>
