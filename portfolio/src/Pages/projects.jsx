@@ -24,7 +24,7 @@ export default function Projects() {
                               <p className={`text-xl font-[monospace]`}>- GDScript</p>
 
                               <div className={`w-40% h-fit p-6 flex justify-center items-center mt-2`}>
-                                  <button className={`bg-transparent border border-black hover:bg-black hover:text-amber-100 h-[48px] w-[160px] rounded-xl font-medium`}>Know More</button>
+                                  <button className={`bg-transparent border border-black hover:bg-black hover:text-amber-100 h-[48px] w-[160px] rounded-xl font-medium`} onClick={() => window.open("https://github.com/Satyaki7/1st-Game")}>Know More</button>
                               </div>
                           </div>
                       </div>
@@ -41,7 +41,7 @@ export default function Projects() {
                               <p className={`text-xl font-[monospace]`}>- Sql</p>
 
                               <div className={`w-40% h-fit p-6 flex justify-center items-center mt-2`}>
-                                  <button className={`bg-transparent border border-black hover:bg-black hover:text-amber-100 h-[48px] w-[160px] rounded-xl font-medium`}>Know More</button>
+                                  <button className={`bg-transparent border border-black hover:bg-black hover:text-amber-100 h-[48px] w-[160px] rounded-xl font-medium`} onClick={() => window.open("https://github.com/Satyaki7/FlightFix-Tkinter-App")}>Know More</button>
                               </div>
                           </div>
                           
@@ -60,7 +60,7 @@ export default function Projects() {
                               <p className={`text-xl font-[monospace]`}>- Docker</p>
 
                               <div className={`w-40% h-fit p-6 flex justify-center items-center mt-2`}>
-                                  <button className={`bg-transparent border border-black hover:bg-black hover:text-amber-100 h-[48px] w-[160px] rounded-xl font-medium`}>Know More</button>
+                                  <button className={`bg-transparent border border-black hover:bg-black hover:text-amber-100 h-[48px] w-[160px] rounded-xl font-medium`} onClick={() => window.open("https://github.com/mondalsyamantak/Expense-Tracker")}>Know More</button>
                               </div>
                           </div>
                       </div>

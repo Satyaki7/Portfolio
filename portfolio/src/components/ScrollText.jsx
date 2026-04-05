@@ -50,7 +50,7 @@ export default function ScrollTexts({ text = "", end = 0,start=0 }) {
 
     return (
         <div ref={divRef} className="w-screen mt-4 overflow-x-clip">
-            <p ref={textRef} className="text-4xl sm:text-6xl lg:text-8xl font-bold whitespace-nowrap font-['Birthstone']">
+            <p ref={textRef} className="text-4xl sm:text-4xl lg:text-8xl font-bold whitespace-nowrap font-['Sekuya']">
                 {text}
             </p>
         </div>

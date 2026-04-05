@@ -84,7 +84,7 @@ export default function Contact() {
                     {/* Left Side */}
                     <div className="flex flex-col justify-center">
                         <p className="text-amber-100 font-medium">Let's talk</p>
-                        <h1 className="text-5xl font-bold font-[Helvetica] mt-2">Contact</h1>
+                        <h1 className="text-5xl font-bold font-['Helvetica'] mt-2">Contact</h1>
                         <p className="text-gray-400 mt-4">
                             Have a question or a project in mind? Feel free to reach out.
                         </p>

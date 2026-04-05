@@ -37,8 +37,8 @@ export default function TiltCard({ backgroundImage, title, description }) {
             >
             </div>
             <div className={`h-[20%] w-full bg-transparent mt-8`}>
-                <p className={`text-4xl font-['helvetica'] font-bold`}>{title}</p>
-                <p className={`text-2xl mt-2 flex flex-wrap`}>{description}</p>
+                <p className={`text-4xl font-['Sekuya'] font-bold`}>{title}</p>
+                <p className={`text-2xl mt-2 flex flex-wrap font-[monospace]`}>{description}</p>
             </div>
         </div>
     )

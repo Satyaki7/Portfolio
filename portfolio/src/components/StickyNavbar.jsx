@@ -5,7 +5,7 @@ export default function Navbar() {
   const location = useLocation();
 
   const baseBtn =
-      "flex items-center justify-center bg-transparent h-[80%] w-[120px] rounded-4xl font-medium transition-colors duration-100";
+      "flex items-center justify-center bg-transparent h-[80%] w-[100px] rounded-3xl font-medium transition-colors duration-100 m-2";
 
   const activeBtn = "!bg-black !text-amber-100 cursor-default";
   const inactiveBtn = "hover:bg-black hover:text-amber-100";
@@ -14,9 +14,9 @@ export default function Navbar() {
       <nav
           className="
         fixed bottom-0 left-1/2 -translate-x-1/2 w-[60%] z-100
-        md:sticky md:top-4 md:left-0 md:translate-x-0 md:w-full md:bg-transparent"
+        md:fixed md:top-4 md:left-1/2 md:-translate-x-1/2 md:w-auto md:bg-transparent h-fit"
       >
-        <div className="flex justify-center items-center md:w-[50%] h-12 max-w-7xl mx-auto">
+        <div className="flex justify-center items-center h-[3rem] max-w-7xl">
           <div className="flex justify-around items-center w-[100%] md:space-x-6 h-full bg-[#FFFFFF47] backdrop-blur-2xl text-black rounded-4xl shadow-sm">
 
             {/* About Me */}
@@ -60,7 +60,7 @@ export default function Navbar() {
                 }}
             >
             <span className="md:hidden">
-              <span className="material-icons">Links</span>
+              <span className="material-icons">links</span>
             </span>
               <span className="hidden md:inline">Links</span>
             </button>

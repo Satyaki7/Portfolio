@@ -28,11 +28,11 @@ export default function Loader() {
             id="loader"
             className="fixed inset-0 flex items-center justify-center bg-black text-amber-100 z-[9999]"
         >
-            <div id="loader-text" className="text-6xl font-[Helvetica] font-bold">
+            <div id="loader-text" className="text-6xl font-['Sekuya'] font-bold">
                 <DecryptedText
                     speed={100}
-                    maxIterations={10}
-                    text="Welcome to my Portfolio"
+                    maxIterations={20}
+                    text="Welcome"
                     animateOn="view"
                     revealDirection="start"
                 />

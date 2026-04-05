@@ -96,7 +96,7 @@ export default function Skill() {
         <section className={`h-fit`}>
             <ScrollTexts
                 text={
-                    "Web-Designer Web-Designer Web-Designer Web-Designer Web-Designer Web-Designer Web-Designer Web-Designer Web-Designer Web-Designer"
+                    "Designer Designer Designer Designer Designer Designer Designer Designer Designer Designer"
                 }
                 start={-1200}
                 end={-600}
@@ -163,9 +163,9 @@ export default function Skill() {
                                             <LanguageBadge image={react} name="React" progress={70} content={`A JavaScript library for building fast, reusable, and interactive user interfaces.`} />
                                         </div>
                                     </div>
-                                    <div className="h-[14rem] w-full hidden md:block bg-transparent flex justify-center items-center p-6">
+                                    <div className="h-[14rem] w-full hidden md:block bg-transparent justify-center items-center p-6">
                                         {/*<img src={Frontend} alt="myid" className="h-full w-full rounded-full object-contain bg-transparent" />*/}
-                                        <div className={`flex flex-wrap text-black font-medium text-sm justify-center items-start w-[80%] h-full`}>
+                                        <div className={`flex flex-wrap text-black font-medium text-sm justify-center items-start w-[80%] h-full font-[monospace]`}>
                                             <TextType text="I enjoy building clean, responsive, and user-friendly applications that balance functionality with design. My focus is on creating seamless experiences where every detail matters, from the structure and styling to interactivity and performance. I approach every project as both a technical challenge and a form of creative expression, blending precision with creativity to deliver work that feels purposeful and impactful."/>
                                         </div>
                                     </div>
@@ -210,9 +210,8 @@ export default function Skill() {
                                             <LanguageBadge image={spring} name="Spring" progress={70} content={`A framework for building secure, scalable, and production-ready backend systems.`} />
                                         </div>
                                     </div>
-                                    <div className="h-[14rem] w-full hidden md:block bg-transparent flex justify-center items-center p-6">
-                                        {/*<img src={Frontend} alt="myid" className="h-full w-full rounded-full object-contain bg-transparent" />*/}
-                                        <div className={`flex flex-wrap text-black font-medium text-sm justify-center items-start w-[80%] h-full`}>
+                                    <div className="h-[14rem] w-full hidden md:block bg-transparent justify-center items-center p-6">
+                                        <div className={`flex flex-wrap text-black font-medium text-sm justify-center items-start w-[80%] h-full font-[monospace]`}>
                                             <TextType text="On the backend, I focus on building secure, efficient, and scalable systems that power applications from behind the scenes. I enjoy working with data, optimizing performance, and designing architectures that ensure reliability. Every backend project is an opportunity to create a strong foundation that allows applications to grow, adapt, and perform seamlessly in real-world environments."/>
                                         </div>
                                     </div>
@@ -253,9 +252,9 @@ export default function Skill() {
                                             <LanguageBadge image={git} name="Git" progress={80} content={`A version control system for managing code and enabling team collaboration.`} />
                                         </div>
                                     </div>
-                                    <div className="h-[14rem] w-full hidden md:block bg-transparent flex justify-center items-center p-6">
+                                    <div className="h-[14rem] w-full hidden md:block bg-transparent justify-center items-center p-6">
                                         {/*<img src={Frontend} alt="myid" className="h-full w-full rounded-full object-contain bg-transparent" />*/}
-                                        <div className={`flex flex-wrap text-black font-medium text-sm justify-center items-start w-[80%] h-full`}>
+                                        <div className={`flex flex-wrap text-black font-medium text-sm justify-center items-start w-[80%] h-full font-[monospace]`}>
                                             <TextType text="Beyond frontend and backend, I explore tools and technologies that broaden my development workflow. From problem-solving with C++ to building cross-platform apps with Flutter, I enjoy experimenting with different domains of computer science. Tools like Git and Figma also play a key role in my process, helping me manage projects effectively while designing intuitive user experiences."/>
                                         </div>
                                     </div>
