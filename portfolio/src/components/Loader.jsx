@@ -31,7 +31,7 @@ export default function Loader() {
             <div id="loader-text" className="text-6xl font-['Sekuya'] font-bold">
                 <DecryptedText
                     speed={100}
-                    maxIterations={20}
+                    maxIterations={10}
                     text="Welcome"
                     animateOn="view"
                     revealDirection="start"
